@@ -1,0 +1,100 @@
+/* ===== Fondo general (crema) ===== */
+.stApp {
+    background-color: #f3efe7;
+    color: #2f2f2f;
+}
+
+/* ===== Contenedor principal ===== */
+.block-container {
+    background-color: #faf8f3;
+    padding: 2rem;
+    border-radius: 16px;
+    border: 1px solid #e5e0d8;
+}
+
+/* ===== Título principal ===== */
+h1 {
+    color: #003A8F;
+    font-weight: 700;
+}
+
+/* ===== Subtítulos ===== */
+h2, h3 {
+    color: #0072CE;
+}
+
+/* ===== Cards ===== */
+.result-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #e5e0d8;
+}
+
+/* ===== Skills chips ===== */
+.skill-chip-wrap {
+    margin-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.skill-chip {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 999px;
+    font-size: 12px;
+    line-height: 1.2;
+    border: 1px solid #d6d1c8;
+    background: #faf8f3;
+    color: #2f2f2f;
+    word-break: break-word;
+}
+
+.skill-chip--more {
+    background: #e9f2ff;
+    border-color: #b7d4ff;
+    color: #003A8F;
+}
+
+.muted {
+    color: #5f6b7a;
+}
+
+/* ===== Barra afinidad ===== */
+.affinity-bar {
+    height: 8px;
+    border-radius: 6px;
+    background-color: #e5e0d8;
+}
+
+.affinity-fill {
+    height: 8px;
+    border-radius: 6px;
+    background-color: #0072CE;
+}
+
+/* ===== Botón principal ===== */
+button[kind="primary"] {
+    background-color: #0072CE !important;
+    border-radius: 8px !important;
+    color: white !important;
+}
+
+button[kind="primary"]:hover {
+    background-color: #005bb5 !important;
+}
+
+/* ===== Inputs ===== */
+input, textarea, select {
+    background-color: #ffffff !important;
+    color: #2f2f2f !important;
+    border-radius: 8px !important;
+    border: 1px solid #d6d1c8 !important;
+}
+
+/* ===== Labels ===== */
+label {
+    color: #5f6b7a !important;
+}

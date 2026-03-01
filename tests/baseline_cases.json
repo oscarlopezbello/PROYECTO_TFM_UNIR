@@ -1,0 +1,112 @@
+[
+  {
+    "case_id": "TC001_asesor_call_center",
+    "description": "Asesor call center básico",
+    "input": {
+      "skills": "atención al cliente, manejo de objeciones, CRM",
+      "experience": "1-2 años en call center",
+      "education": "Técnico",
+      "language": "Español nativo",
+      "sector": "Call center, BPO",
+      "job_title": "Asesor de servicio al cliente",
+      "top_k": 10,
+      "weights": {
+        "skills": 5,
+        "experience": 3,
+        "education": 2,
+        "language": 2,
+        "sector": 4,
+        "job_title": 4
+      }
+    }
+  },
+  {
+    "case_id": "TC002_cajero_senior",
+    "description": "Cajero con experiencia",
+    "input": {
+      "skills": "manejo de efectivo, arqueo de caja, SAP",
+      "experience": "3+ años como cajero",
+      "education": "Tecnólogo",
+      "language": "Español",
+      "sector": "Retail, supermercados",
+      "job_title": "Cajero principal",
+      "top_k": 10,
+      "weights": {
+        "skills": 6,
+        "experience": 5,
+        "education": 2,
+        "language": 1,
+        "sector": 5,
+        "job_title": 5
+      }
+    }
+  },
+  {
+    "case_id": "TC003_vendedor_consumo_masivo",
+    "description": "Vendedor de campo consumo masivo",
+    "input": {
+      "skills": "ventas, merchandising, negociación",
+      "experience": "2 años en ventas retail",
+      "education": "Profesional",
+      "language": "Español",
+      "sector": "Consumo masivo, FMCG",
+      "job_title": "Ejecutivo comercial",
+      "top_k": 10,
+      "weights": {
+        "skills": 7,
+        "experience": 4,
+        "education": 3,
+        "language": 1,
+        "sector": 5,
+        "job_title": 4
+      }
+    }
+  },
+  {
+    "case_id": "TC004_supervisor_call_center",
+    "description": "Supervisor de equipo call center",
+    "input": {
+      "skills": "liderazgo de equipos, KPIs, coaching",
+      "experience": "4+ años en call center, 1+ año liderando",
+      "education": "Profesional",
+      "language": "Inglés B1",
+      "sector": "Call center",
+      "job_title": "Supervisor de operaciones",
+      "top_k": 10,
+      "weights": {
+        "skills": 6,
+        "experience": 6,
+        "education": 4,
+        "language": 3,
+        "sector": 4,
+        "job_title": 5
+      },
+      "hard_filters": {
+        "education_min": "Profesional",
+        "language_required": "Inglés",
+        "language_min_level": "B1"
+      }
+    }
+  },
+  {
+    "case_id": "TC005_promotor_pdv",
+    "description": "Promotor punto de venta",
+    "input": {
+      "skills": "impulsación de productos, trade marketing",
+      "experience": "1 año en punto de venta",
+      "education": "Técnico",
+      "language": "Español",
+      "sector": "Retail, consumo masivo",
+      "job_title": "Promotor de ventas",
+      "top_k": 10,
+      "weights": {
+        "skills": 6,
+        "experience": 3,
+        "education": 1,
+        "language": 1,
+        "sector": 5,
+        "job_title": 6
+      }
+    }
+  }
+]

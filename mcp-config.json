@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "tfm-match": {
+      "command": "poetry",
+      "args": [
+        "run",
+        "python",
+        "-m",
+        "tfm_match.mcp.server"
+      ],
+      "cwd": ".",
+      "env": {
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+        "MYSQL_URL": "${MYSQL_URL}",
+        "CHROMA_DIR": "${CHROMA_DIR}"
+      }
+    }
+  }
+}
